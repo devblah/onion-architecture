@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TodoApi.Application\TodoApi.Application.csproj" />
+    <ProjectReference Include="..\TodoApi.Domain\TodoApi.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
